@@ -1,0 +1,6 @@
+username,password,expected_result,expected_message_contains
+tomsmith,SuperSecretPassword!,success,You logged into a secure area
+tomsmith,wrongpassword,failure,Your password is invalid
+wronguser,SuperSecretPassword!,failure,Your username is invalid
+,SuperSecretPassword!,failure,Your username is invalid
+tomsmith,,failure,Your password is invalid
